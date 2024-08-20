@@ -8,19 +8,25 @@ import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import ContentHooks from './components/ContentHooks';
+import HTTPRequest from './components/HTTPRequest';
+import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
     <div className={css.App}>
-      <NavBarForm/>
-      <Sidebar/>
-      <ContentHooks/>
+      {/* <NavBarForm/> */}
+      {/* <Sidebar/> */}
+      {/* <ContentHooks/> */}
       {/* <Content/> */}
-{/*   <ControlledFormHooks/> */}
-{/*   <UseStateWithArrays/> */}
-{/*   <UseStateWithObjects/> */}
-{/*   <UseEffectCounter/> */}
-{/*   <UseEffectCounterContainer/> */}
+      {/* <ControlledFormHooks/> */}
+      {/* <UseStateWithArrays/> */}
+      {/* <UseStateWithObjects/> */}
+      {/* <UseEffectCounter/> */}
+      {/* <UseEffectCounterContainer/> */}
+      {/* <HTTPRequest/> */}
+      {/* <HTTPPost/> */}
+      <HTTPHooks />
     </div>
   );
 }
