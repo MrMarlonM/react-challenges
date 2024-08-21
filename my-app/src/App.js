@@ -11,12 +11,15 @@ import ContentHooks from './components/ContentHooks';
 import HTTPRequest from './components/HTTPRequest';
 import HTTPPost from './components/HTTPPost';
 import HTTPHooks from './components/HTTPHooks';
+import ContentAPI from './components/ContentAPI';
+import PostItemAPI from './components/PostItemAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 function App() {
   return (
     <div className={css.App}>
-      {/* <NavBarForm/> */}
-      {/* <Sidebar/> */}
+      <NavBarForm/>
+      <Sidebar/>
       {/* <ContentHooks/> */}
       {/* <Content/> */}
       {/* <ControlledFormHooks/> */}
@@ -26,7 +29,9 @@ function App() {
       {/* <UseEffectCounterContainer/> */}
       {/* <HTTPRequest/> */}
       {/* <HTTPPost/> */}
-      <HTTPHooks />
+      {/* <HTTPHooks /> */}
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
